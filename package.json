@@ -1,0 +1,13 @@
+{
+  "name": "lead-apify",
+  "version": "1.0.0",
+  "description": "Apify API integration for Lead project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "apify-client": "^2.9.3",
+    "dotenv": "^16.4.5"
+  }
+}
