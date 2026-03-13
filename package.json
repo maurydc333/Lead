@@ -1,13 +1,17 @@
 {
   "name": "lead-apify",
   "version": "1.0.0",
-  "description": "Apify API integration for Lead project",
-  "main": "index.js",
+  "description": "Instagram Lead Finder – Easy Comedi: Os Dakota & Giuliao | Lapa, RJ",
+  "main": "run.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node run.js",
+    "demo": "node run.js --demo",
+    "test-connection": "node index.js"
   },
   "dependencies": {
-    "apify-client": "^2.9.3",
-    "dotenv": "^16.4.5"
+    "apify-client": "^2.22.2",
+    "cli-table3": "^0.6.5",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.6.1"
   }
 }
